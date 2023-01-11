@@ -1,0 +1,17 @@
+M5 GIT
+-----------------------------------------------------------------
+Git add: move from working directory to staging area
+Git commit: move from staging area to local repository
+Git push: move from local repository to Remote
+Git revert/reset: move backwards 1 step
+Git restore: move backwards from staging area to working directory
+
+M6 CODE STRUCTURE
+-----------------------------------------------------------------
+
+
+M7 GOOD CODING PRACTICE
+-----------------------------------------------------------------
+ 
+M8 DATA VERSION CONTROL
+-----------------------------------------------------------------
