@@ -1,0 +1,22 @@
+M9 DOCKER
+-----------------------------------------------------------------
+Docker provides this kind of system-level reproducibility by creating isolated programs dependencies.
+Docker has three main concepts: docker file, docker image and docker container:
+- Docker file: is a basic text document that contains all the commands a user could call on the command line to run an application. 
+- Docker image: executable package of software that includes everything (application code, libraries, tools, dependencies etc.) necessary to make an application run
+- Docker container: the same image can be launched multiple times, creating multiple containers.
+
+Install Docker Desktop
+
+
+
+
+M10 CONFIG FILES
+-----------------------------------------------------------------
+conda create --name “name” python=3.9
+conda list: gives you a list of the packages installed in the current environment
+conda list -n “env_name”: gives you a list of the packages installed in the current environment
+conda list --export > environment.txt : export this list to a text file
+conda info –envs: list of all the environments that you have created
+pip list: list of all pip installed packages inside conda environment 
+pip freeze>requirements.txt: export this to a file

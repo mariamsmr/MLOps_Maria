@@ -36,5 +36,3 @@ M3 PYTHON AND JUPITER FILES
 conda install nbconvert # or pip install nbconvert
 (need some further dependencies such as Pandoc, TeX and Pyppeteer for it to work)
 jupyter nbconvert --to=script my_notebook.ipynb: converting a notebook to a .py script 
-
-M4 
