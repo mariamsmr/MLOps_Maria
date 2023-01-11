@@ -6,6 +6,15 @@ Git push: move from local repository to Remote
 Git revert/reset: move backwards 1 step
 Git restore: move backwards from staging area to working directory
 
+git status: to check in which branch is a repository
+
+branches: each branch can contain code that are not present on other branches.
+git checkout -b <my_branch_name>: creating a new branch
+git checkout: to change between branches
+
+fork the project: create a local copy of the repository which you have complete writing access to
+
+
 M6 CODE STRUCTURE
 -----------------------------------------------------------------
 
