@@ -33,3 +33,18 @@ $docker cp {container_name}:{dir_path}/{file_name} {local_dir_path}/{local_file_
 
 M10 CONFIG FILES
 -----------------------------------------------------------------
+Hyperparameter: is any parameter that affects the learning process
+# most basic ways of structuring hyperparameters, is just to put them directly into you train.py script:
+class my_hp:
+    batch_size: 64
+    lr: 128
+    other_hp: 12345
+
+# easy access to them
+dl = DataLoader(Dataset, batch_size=my_hp.batch_size)
+
+# also in terminal
+$ python train.py --batch_size 256 --learning_rate 1e-4 --other_hp 12345
+
+Using Hydra:
+pip install hydra-core --upgrade
