@@ -26,7 +26,7 @@ How to create a cookie cutter structure:
 4. fill in all the requirements: names, description, licence (1),...
 5. Push to github repository
 
-6. Install the prject as a package in our conda environment.
+6. Install the project as a package in our conda environment.
 open in the conda environtment terminal the project folder and do:
 $ pip install -e .
 $ pip install -r requirements.txt : to install additional packages required by cookie-cutter.

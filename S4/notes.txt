@@ -12,11 +12,17 @@ M11 DEBUGGING
 
 M12 PROFILING
 -----------------------------------------------------------------
+Using profilers can help you find bottlenecks in your code. 
 
+$ pip install torch_tb_profiler  # profiler that is build into PyTorch already
 
 M13 EXPERIMENT LOGGING
 -----------------------------------------------------------------
+Weights and Bias (wandb)
 
+$ pip install wandb # install wandb on your laptop
+$ wandb login # connect to your wandb account
+manually close the connection using wandb.finish()
 
 M14 MINIMIZING BOILERPLATE
 -----------------------------------------------------------------
